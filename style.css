@@ -1,15 +1,15 @@
-.header-background {
-    
-}
-
 .header {
     display: flex;
-    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     padding: 0 auto;
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .logo {
