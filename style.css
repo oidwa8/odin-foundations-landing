@@ -1,8 +1,31 @@
+.header-background {
+    
+}
+
 .header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
+    padding: 0 auto;
+    width: 75%;
+    margin: auto;
 }
 
 .logo {
+    display: flex;
+    font-size: 24px;
+    justify-content: left;
+    padding: 24px 20px 24px 20px;
+    color: #f9faf8;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: right;
+    /* no dot */
+    list-style-type: none;
+    gap: 24px;
+    padding: 24px 20px 24px 20px;
     color: #f9faf8;
 }
